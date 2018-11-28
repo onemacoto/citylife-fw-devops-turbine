@@ -8,7 +8,7 @@
 	<packaging>jar</packaging>
 	<parent>
 		<groupId>com.citylife</groupId>
-		<artifactId>citylife-fw-plateform-parent</artifactId>
+		<artifactId>citylife-fw-starter-plateform</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<properties>
