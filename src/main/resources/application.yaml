@@ -54,4 +54,5 @@ turbine:
   stream:
     enabled: true
   cluster-name-expression: "'default'"
-  app-config: ccf-gateway-app,ccf-certification-app,sasweb,sasweb-basecode,sasweb-linerimport,sasweb-linerexport,sasweb-serviceproduct,sasweb-exception,sasweb-intertran
+  app-config: citylife-fw-api-gateway-zuul
+  #ccf-gateway-app,ccf-certification-app,sasweb,sasweb-basecode,sasweb-linerimport,sasweb-linerexport,sasweb-serviceproduct,sasweb-exception,sasweb-intertran
