@@ -11,13 +11,13 @@ spring:
       force: true
       enabled: true
   cloud:
-    stream:
+    stream: 
       kafka:
         binder:
           # Kafka的服务端列表
           brokers: 172.40.2.124:9092,172.40.2.125:9092
           # Kafka服务端连接的ZooKeeper节点列表
-          zkNodes: 172.40.2.124:2181,172.40.2.125:2181
+          #zkNodes: 172.40.2.124:2181,172.40.2.125:2181
 eureka:
   client:
     healthcheck:

@@ -1,5 +1,5 @@
 <configuration>
-    <property name="LOG_DIR" value="C:/citylife/logs"/><!-- 日志目录 -->
+    <property name="LOG_DIR" value="c:/citylife/logs"/><!-- 日志目录 -->
     <property name="LOG_NAME" value="citylife-turbine-stream-server.log"/><!-- 日志文件名 -->
     <!-- 读取yml文件中spring.application.name节点定义的微服务名 并保存为本xml的一个变量，变量名为applicationName -->
     <springProperty scope="context" name="applicationName" source="spring.application.name" defaultValue="undefined_appName"/>
