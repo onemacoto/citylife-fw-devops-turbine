@@ -1,5 +1,6 @@
 logging:
-  config: classpath:logback.xml
+  config: 
+    classpath: logback.xml
 server:
   port: 13000
 spring:
