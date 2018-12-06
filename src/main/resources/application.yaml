@@ -1,11 +1,10 @@
-logging:
-  config: 
-    classpath: logback.xml
 server:
   port: 13000
 spring:
   application:
-    name: citylife-turbine-stream-server
+    name: turbine-stream
+  profiles: 
+    active: dev-windows       
   http:
     encoding:
       charset: UTF-8
